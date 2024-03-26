@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="텀프로젝트_부표_좌표DataSet" targetNamespace="http://tempuri.org/텀프로젝트_부표_좌표DataSet.xsd" xmlns:mstns="http://tempuri.org/텀프로젝트_부표_좌표DataSet.xsd" xmlns="http://tempuri.org/텀프로젝트_부표_좌표DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="텀프로젝트_부표_좌표ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="텀프로젝트_부표_좌표ConnectionString (Settings)" PropertyReference="ApplicationSettings.TermProject.Properties.Settings.GlobalReference.Default.텀프로젝트_부표_좌표ConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Sheet1TableAdapter" GeneratorDataComponentClassName="Sheet1TableAdapter" Name="Sheet1" UserDataComponentName="Sheet1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="텀프로젝트_부표_좌표ConnectionString (Settings)" DbObjectName="Sheet1" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT 위도, 경도 FROM Sheet1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Sheet2TableAdapter" GeneratorDataComponentClassName="Sheet2TableAdapter" Name="Sheet2" UserDataComponentName="Sheet2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="텀프로젝트_부표_좌표ConnectionString (Settings)" DbObjectName="Sheet2" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT 위도, 경도 FROM Sheet2</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Sheet3TableAdapter" GeneratorDataComponentClassName="Sheet3TableAdapter" Name="Sheet3" UserDataComponentName="Sheet3TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="텀프로젝트_부표_좌표ConnectionString (Settings)" DbObjectName="Sheet3" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT 위도, 경도 FROM Sheet3</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Sheet4TableAdapter" GeneratorDataComponentClassName="Sheet4TableAdapter" Name="Sheet4" UserDataComponentName="Sheet4TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="텀프로젝트_부표_좌표ConnectionString (Settings)" DbObjectName="Sheet4" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT 위도, 경도 FROM Sheet4</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="텀프로젝트_부표_좌표DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="텀프로젝트_부표_좌표DataSet" msprop:Generator_DataSetName="텀프로젝트_부표_좌표DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Sheet1" msprop:Generator_RowEvHandlerName="Sheet1RowChangeEventHandler" msprop:Generator_RowDeletedName="Sheet1RowDeleted" msprop:Generator_RowDeletingName="Sheet1RowDeleting" msprop:Generator_RowEvArgName="Sheet1RowChangeEvent" msprop:Generator_TablePropName="Sheet1" msprop:Generator_RowChangedName="Sheet1RowChanged" msprop:Generator_RowChangingName="Sheet1RowChanging" msprop:Generator_TableClassName="Sheet1DataTable" msprop:Generator_RowClassName="Sheet1Row" msprop:Generator_TableVarName="tableSheet1" msprop:Generator_UserTableName="Sheet1">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Sheet2" msprop:Generator_RowEvHandlerName="Sheet2RowChangeEventHandler" msprop:Generator_RowDeletedName="Sheet2RowDeleted" msprop:Generator_RowDeletingName="Sheet2RowDeleting" msprop:Generator_RowEvArgName="Sheet2RowChangeEvent" msprop:Generator_TablePropName="Sheet2" msprop:Generator_RowChangedName="Sheet2RowChanged" msprop:Generator_RowChangingName="Sheet2RowChanging" msprop:Generator_TableClassName="Sheet2DataTable" msprop:Generator_RowClassName="Sheet2Row" msprop:Generator_TableVarName="tableSheet2" msprop:Generator_UserTableName="Sheet2">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Sheet3" msprop:Generator_RowEvHandlerName="Sheet3RowChangeEventHandler" msprop:Generator_RowDeletedName="Sheet3RowDeleted" msprop:Generator_RowDeletingName="Sheet3RowDeleting" msprop:Generator_RowEvArgName="Sheet3RowChangeEvent" msprop:Generator_TablePropName="Sheet3" msprop:Generator_RowChangedName="Sheet3RowChanged" msprop:Generator_RowChangingName="Sheet3RowChanging" msprop:Generator_TableClassName="Sheet3DataTable" msprop:Generator_RowClassName="Sheet3Row" msprop:Generator_TableVarName="tableSheet3" msprop:Generator_UserTableName="Sheet3">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Sheet4" msprop:Generator_RowEvHandlerName="Sheet4RowChangeEventHandler" msprop:Generator_RowDeletedName="Sheet4RowDeleted" msprop:Generator_RowDeletingName="Sheet4RowDeleting" msprop:Generator_RowEvArgName="Sheet4RowChangeEvent" msprop:Generator_TablePropName="Sheet4" msprop:Generator_RowChangedName="Sheet4RowChanged" msprop:Generator_RowChangingName="Sheet4RowChanging" msprop:Generator_TableClassName="Sheet4DataTable" msprop:Generator_RowClassName="Sheet4Row" msprop:Generator_TableVarName="tableSheet4" msprop:Generator_UserTableName="Sheet4">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
